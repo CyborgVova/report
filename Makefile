@@ -1,2 +1,3 @@
+.PHONY: all
 all:
-	./start.sh
+	docker-compose up -d --wait
