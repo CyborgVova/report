@@ -75,16 +75,16 @@ ALTER TABLE ONLY public.reports ALTER COLUMN report_id SET DEFAULT nextval('publ
 -- Data for Name: reports; Type: TABLE DATA; Schema: public; Owner: user
 --
 
-INSERT INTO public.reports (report_id, creation_time, report_info, model_id) VALUES (25, '2023-03-02', 'A', 10);
-INSERT INTO public.reports (report_id, creation_time, report_info, model_id) VALUES (26, '2023-03-04', 'B', 20);
-INSERT INTO public.reports (report_id, creation_time, report_info, model_id) VALUES (27, '2023-03-05', 'C', 30);
-INSERT INTO public.reports (report_id, creation_time, report_info, model_id) VALUES (28, '2023-03-09', 'D', 40);
-INSERT INTO public.reports (report_id, creation_time, report_info, model_id) VALUES (29, '2023-03-13', 'E', 50);
-INSERT INTO public.reports (report_id, creation_time, report_info, model_id) VALUES (30, '2023-03-07', 'Z', 30);
-INSERT INTO public.reports (report_id, creation_time, report_info, model_id) VALUES (31, '2023-03-14', 'F', 60);
-INSERT INTO public.reports (report_id, creation_time, report_info, model_id) VALUES (32, '2023-03-20', 'G', 70);
-INSERT INTO public.reports (report_id, creation_time, report_info, model_id) VALUES (33, '2023-03-25', 'J', 80);
-INSERT INTO public.reports (report_id, creation_time, report_info, model_id) VALUES (34, '2023-03-25', 'O', 30);
+INSERT INTO public.reports (report_id, creation_time, report_info, model_id) VALUES (1, '2023-03-02', 'A', 10);
+INSERT INTO public.reports (report_id, creation_time, report_info, model_id) VALUES (2, '2023-03-04', 'B', 20);
+INSERT INTO public.reports (report_id, creation_time, report_info, model_id) VALUES (3, '2023-03-05', 'C', 30);
+INSERT INTO public.reports (report_id, creation_time, report_info, model_id) VALUES (4, '2023-03-09', 'D', 40);
+INSERT INTO public.reports (report_id, creation_time, report_info, model_id) VALUES (5, '2023-03-13', 'E', 50);
+INSERT INTO public.reports (report_id, creation_time, report_info, model_id) VALUES (6, '2023-03-07', 'Z', 30);
+INSERT INTO public.reports (report_id, creation_time, report_info, model_id) VALUES (7, '2023-03-14', 'F', 60);
+INSERT INTO public.reports (report_id, creation_time, report_info, model_id) VALUES (8, '2023-03-20', 'G', 70);
+INSERT INTO public.reports (report_id, creation_time, report_info, model_id) VALUES (9, '2023-03-25', 'J', 80);
+INSERT INTO public.reports (report_id, creation_time, report_info, model_id) VALUES (10, '2023-03-25', 'O', 30);
 
 
 --
