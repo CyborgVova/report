@@ -11,8 +11,10 @@ services:
 
   db:
     image: postgres:15
+    env_file: ./config/db.env
     container_name: database
     restart: always
-    env_file: ./config/db.env
+    volumes:
+      - ./test:/docker-entrypoint-initdb.d
     ports:
       - 5432:5432
